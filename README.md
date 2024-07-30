@@ -5,6 +5,8 @@
 </h1>
 
 ### 📕 SOBRE 
+<h4>Desafio da DIO de modelagem UML onde devemos construir um diagrama UML do IPHONE</h4>
+
 **Funcionalidades a Modelar**
 - Reprodutor Musical
 Métodos: tocar(), pausar(), selecionarMusica(String musica)
