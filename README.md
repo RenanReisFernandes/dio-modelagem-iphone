@@ -18,22 +18,32 @@ Métodos: exibirPagina(String url), adicionarNovaAba(), atualizarPagina()
 
 ```mermaid
 classDiagram
+   class Iphone {
+        -ReprodutorMusical reprodutorMusical
+        -AparelhoTelefonico aparelhoTelefonico
+        -NavegadorNaInternet navegadorNaInternet
+    }
+    
     class ReprodutorMusical {
         +tocar()
         +pausar()
         +selecionarMusica(String musica)
     }
-
+    
     class AparelhoTelefonico {
         +ligar(String numero)
         +atender()
         +iniciarCorreioVoz()
     }
-
+    
     class NavegadorNaInternet {
         +exibirPagina(String url)
         +adicionarNovaAba()
         +atualizarPagina()
     }
+    
+    Iphone --> ReprodutorMusical : 1
+    Iphone --> AparelhoTelefonico : 1
+    Iphone --> NavegadorNaInternet : 1
 ```
 
