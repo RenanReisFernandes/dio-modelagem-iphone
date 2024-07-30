@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://www.omg.org/XMI" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML">
+  <uml:Package name="ReprodutorMusicalPackage">
+    <packagedElement xmi:type="uml:Class" xmi:id="ReprodutorMusical" name="ReprodutorMusical">
+      <ownedOperation name="tocar"/>
+      <ownedOperation name="pausar"/>
+      <ownedOperation name="selecionarMusica">
+        <ownedParameter name="musica" type="String"/>
+      </ownedOperation>
+    </packagedElement>
+  </uml:Package>
+  <uml:Package name="AparelhoTelefonicoPackage">
+    <packagedElement xmi:type="uml:Class" xmi:id="AparelhoTelefonico" name="AparelhoTelefonico">
+      <ownedOperation name="ligar">
+        <ownedParameter name="numero" type="String"/>
+      </ownedOperation>
+      <ownedOperation name="atender"/>
+      <ownedOperation name="iniciarCorreioVoz"/>
+    </packagedElement>
+  </uml:Package>
+  <uml:Package name="NavegadorNaInternetPackage">
+    <packagedElement xmi:type="uml:Class" xmi:id="NavegadorNaInternet" name="NavegadorNaInternet">
+      <ownedOperation name="exibirPagina">
+        <ownedParameter name="url" type="String"/>
+      </ownedOperation>
+      <ownedOperation name="adicionarNovaAba"/>
+      <ownedOperation name="atualizarPagina"/>
+    </packagedElement>
+  </uml:Package>
+</uml:Model>
